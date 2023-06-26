@@ -122,7 +122,7 @@ const getListings = async (req, res) => {
       options.where.total_applicants = {
         [Op.or]: {
           // [Op.between]: [applicants_start, applicants_end],
-          [Op.gte]: applicants_end,
+          [Op.gte]: applicants_start,
         },
       };
     else
@@ -133,7 +133,7 @@ const getListings = async (req, res) => {
   if (duration_start && duration_end) {
     if (duration_end == 7)
       options.where.duration = {
-        [Op.gte]: applicants_end,
+        [Op.gte]: duration_start,
       };
     else
       options.where.duration = {
@@ -183,14 +183,14 @@ const getListings = async (req, res) => {
     let listings;
     if (skill)
       // if skill are coming in filter than use this query
-      listings = await Company.findAll({
+      listings = await Company.findAndCountAll({
         ...options,
         having: db.sequelize.literal(
           `JSON_CONTAINS(skills, '${JSON.stringify(skill)}')`
         ),
       });
-    else listings = await Company.findAll(options);
-    return successResponse(res, "Fetched listings successfully", listings);
+    else listings = await Company.findAndCountAll(options);
+    return successResponse(res, "Fetched count successfully", listings);
   } catch (error) {
     logger.error("Error while fetchign", error);
     return serverErrorResponse(res, "Error while fetching");
