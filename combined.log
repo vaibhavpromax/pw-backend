@@ -1,0 +1,818 @@
+{"level":"error","message":"Failed to connect to db Unknown database 'pw'","name":"SequelizeConnectionError","original":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlMessage":"Unknown database 'pw'","sqlState":"42000"},"parent":{"code":"ER_BAD_DB_ERROR","errno":1049,"sqlMessage":"Unknown database 'pw'","sqlState":"42000"},"service":"user-service","stack":"SequelizeConnectionError: Unknown database 'pw'\n    at ConnectionManager.connect (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\connection-manager.js:102:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ConnectionManager._connect (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:222:24)\n    at async C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:174:32\n    at async ConnectionManager.getConnection (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:197:7)\n    at async C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:305:26\n    at async Sequelize.authenticate (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:457:5)\n    at async Sequelize.sync (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:369:7)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while creating listing Cannot read properties of undefined (reading 'split')","service":"user-service","stack":"TypeError: Cannot read properties of undefined (reading 'split')\n    at Company.set (C:\\Users\\singh\\Desktop\\pw\\backend\\db\\models\\company.js:96:51)\n    at Company.set (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:2256:32)\n    at Company.set (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:2241:18)\n    at Company._initValues (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:156:10)\n    at new Model (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:116:10)\n    at new Company (C:\\Users\\singh\\Desktop\\pw\\backend\\db\\models\\company.js:4:3)\n    at Company.build (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1344:12)\n    at Company.create (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1362:23)\n    at createListing (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:32:35)\n    at Layer.handle [as handle_request] (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while creating listing Cannot read properties of undefined (reading 'split')","service":"user-service","stack":"TypeError: Cannot read properties of undefined (reading 'split')\n    at Company.set (C:\\Users\\singh\\Desktop\\pw\\backend\\db\\models\\company.js:96:51)\n    at Company.set (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:2256:32)\n    at Company.set (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:2241:18)\n    at Company._initValues (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:156:10)\n    at new Model (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:116:10)\n    at new Company (C:\\Users\\singh\\Desktop\\pw\\backend\\db\\models\\company.js:4:3)\n    at Company.build (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1344:12)\n    at Company.create (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1362:23)\n    at createListing (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:32:35)\n    at Layer.handle [as handle_request] (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)"}
+{"errors":[{"instance":{"about_us":" We are a mobile and web development company. We're a professional, individualistic one-stop shop providing strategic brand consulting, experience and customer journey design, mobile app design and development, website and software development, and just about everything else which has to do anything with digital technology.","company_id":"d7038b00-3b02-47fd-905c-f5ac4d433c6e","company_logo":"https://companieslogo.com/img/orig/TCS.NS-7401f1bd.png?t=1631949260","company_status":"IT services","createdAt":"2023-06-25T13:24:25.320Z","date_posted":"2023-06-24T21:36:36.000Z","duration":2,"experience":"Intermediate","expiry_date":"2023-11-19T21:36:36.000Z","job_type":"wfh","location":"noida","name":"TCS","number_of_positions":5,"position":"Full stack developer","requirements":["Someone who can work in a fast-paced startup environment "," Good understanding of ReactJs, HTML, SCSS (styling is important), "," Javascript Good communication is a must-have for this role "," Hardworking & Curious to learn/implement new things is what I prefer personally ",""],"respo":["Write clean, manageable code and follow standard coding practices ","  Write quality code with a clean UI/UX view "," Work with the tech & non-tech teams to create a meaningful product for users "," Capable to build a feature, testing, and deploying a feature on the production server ",""],"skills":["express","node","flutter","css","html","canva","problem solving"],"stipend_max":30000,"stipend_min":20000,"timing":"part","total_applicants":65,"updatedAt":"2023-06-25T13:24:25.320Z"},"message":"Company.requie cannot be null","origin":"CORE","path":"requie","type":"notNull Violation","validatorArgs":[],"validatorKey":"is_null","validatorName":null,"value":null}],"level":"error","message":"Error while creating listing notNull Violation: Company.requie cannot be null","name":"SequelizeValidationError","service":"user-service","stack":"SequelizeValidationError: notNull Violation: Company.requie cannot be null\n    at InstanceValidator._validate (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\instance-validator.js:50:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async InstanceValidator._validateAndRunHooks (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\instance-validator.js:60:7)\n    at async InstanceValidator.validate (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\instance-validator.js:54:12)\n    at async Company.save (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:2426:7)\n    at async Company.create (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1362:12)\n    at async createListing (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:32:21)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while fetchign You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', 'Python', 'Figma', 'ReactJS' LIMIT 0, 10' at line 1","name":"SequelizeDatabaseError","original":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE json_unquote(json_extract(`Company`.`skills`,'$.\\\"$in\\\"')) = 'Javascript', 'Python', 'Figma', 'ReactJS' LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', 'Python', 'Figma', 'ReactJS' LIMIT 0, 10' at line 1","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE json_unquote(json_extract(`Company`.`skills`,'$.\\\"$in\\\"')) = 'Javascript', 'Python', 'Figma', 'ReactJS' LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', 'Python', 'Figma', 'ReactJS' LIMIT 0, 10' at line 1","sqlState":"42000"},"service":"user-service","sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE json_unquote(json_extract(`Company`.`skills`,'$.\\\"$in\\\"')) = 'Javascript', 'Python', 'Figma', 'ReactJS' LIMIT 0, 10;","stack":"Error\n    at Query.run (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:12)\n    at async Company.findAll (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1140:21)\n    at async getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:139:22)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while fetchign You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', 'Python', 'Figma', 'ReactJS' LIMIT 0, 10' at line 1","name":"SequelizeDatabaseError","original":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE json_unquote(json_extract(`Company`.`skills`,'$.\\\"$in\\\"')) = 'Javascript', 'Python', 'Figma', 'ReactJS' LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', 'Python', 'Figma', 'ReactJS' LIMIT 0, 10' at line 1","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE json_unquote(json_extract(`Company`.`skills`,'$.\\\"$in\\\"')) = 'Javascript', 'Python', 'Figma', 'ReactJS' LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', 'Python', 'Figma', 'ReactJS' LIMIT 0, 10' at line 1","sqlState":"42000"},"service":"user-service","sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE json_unquote(json_extract(`Company`.`skills`,'$.\\\"$in\\\"')) = 'Javascript', 'Python', 'Figma', 'ReactJS' LIMIT 0, 10;","stack":"Error\n    at Query.run (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:12)\n    at async Company.findAll (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1140:21)\n    at async getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:139:22)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while fetchign Invalid value { '$in': [ 'Management', 'Marketing' ] }","service":"user-service","stack":"Error: Invalid value { '$in': [ 'Management', 'Marketing' ] }\n    at Object.escape (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sql-string.js:53:11)\n    at MySQLQueryGenerator.escape (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:763:22)\n    at MySQLQueryGenerator._whereParseSingleValueObject (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2057:41)\n    at MySQLQueryGenerator.whereItemQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1815:19)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1734:25\n    at Array.forEach (<anonymous>)\n    at MySQLQueryGenerator.whereItemsQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1732:35)\n    at MySQLQueryGenerator.getWhereConditions (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2075:19)\n    at MySQLQueryGenerator.selectQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:988:28)\n    at MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:59)"}
+{"level":"error","message":"Error while fetchign Invalid value { '$in': [ 'Management', 'Marketing' ] }","service":"user-service","stack":"Error: Invalid value { '$in': [ 'Management', 'Marketing' ] }\n    at Object.escape (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sql-string.js:53:11)\n    at MySQLQueryGenerator.escape (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:763:22)\n    at MySQLQueryGenerator._whereParseSingleValueObject (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2057:41)\n    at MySQLQueryGenerator.whereItemQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1815:19)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1734:25\n    at Array.forEach (<anonymous>)\n    at MySQLQueryGenerator.whereItemsQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1732:35)\n    at MySQLQueryGenerator.getWhereConditions (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2075:19)\n    at MySQLQueryGenerator.selectQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:988:28)\n    at MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:59)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while fetchign Invalid value { '$like': [ 'Management', 'Marketing' ] }","service":"user-service","stack":"Error: Invalid value { '$like': [ 'Management', 'Marketing' ] }\n    at Object.escape (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sql-string.js:53:11)\n    at MySQLQueryGenerator.escape (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:763:22)\n    at MySQLQueryGenerator._whereParseSingleValueObject (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2057:41)\n    at MySQLQueryGenerator.whereItemQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1815:19)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1734:25\n    at Array.forEach (<anonymous>)\n    at MySQLQueryGenerator.whereItemsQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1732:35)\n    at MySQLQueryGenerator.getWhereConditions (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2075:19)\n    at MySQLQueryGenerator.selectQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:988:28)\n    at MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:59)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while fetchign Invalid value { '$in': [ 'Management', 'Marketing' ] }","service":"user-service","stack":"Error: Invalid value { '$in': [ 'Management', 'Marketing' ] }\n    at Object.escape (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sql-string.js:53:11)\n    at MySQLQueryGenerator.escape (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:763:22)\n    at MySQLQueryGenerator._whereParseSingleValueObject (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2057:41)\n    at MySQLQueryGenerator.whereItemQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1815:19)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1734:25\n    at Array.forEach (<anonymous>)\n    at MySQLQueryGenerator.whereItemsQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1732:35)\n    at MySQLQueryGenerator.getWhereConditions (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2075:19)\n    at MySQLQueryGenerator.selectQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:988:28)\n    at MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:59)"}
+{"level":"error","message":"Error while fetchign Invalid value { '$in': [ 'Management', 'Marketing' ] }","service":"user-service","stack":"Error: Invalid value { '$in': [ 'Management', 'Marketing' ] }\n    at Object.escape (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sql-string.js:53:11)\n    at MySQLQueryGenerator.escape (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:763:22)\n    at MySQLQueryGenerator._whereParseSingleValueObject (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2057:41)\n    at MySQLQueryGenerator.whereItemQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1815:19)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1734:25\n    at Array.forEach (<anonymous>)\n    at MySQLQueryGenerator.whereItemsQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1732:35)\n    at MySQLQueryGenerator.getWhereConditions (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2075:19)\n    at MySQLQueryGenerator.selectQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:988:28)\n    at MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:59)"}
+{"level":"error","message":"Error while fetchign Invalid value { '$in': [ 'Management' ] }","service":"user-service","stack":"Error: Invalid value { '$in': [ 'Management' ] }\n    at Object.escape (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sql-string.js:53:11)\n    at MySQLQueryGenerator.escape (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:763:22)\n    at MySQLQueryGenerator._whereParseSingleValueObject (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2057:41)\n    at MySQLQueryGenerator.whereItemQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1815:19)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1734:25\n    at Array.forEach (<anonymous>)\n    at MySQLQueryGenerator.whereItemsQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1732:35)\n    at MySQLQueryGenerator.getWhereConditions (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2075:19)\n    at MySQLQueryGenerator.selectQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:988:28)\n    at MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:59)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while fetchign Invalid value { '$in': [ 'Management' ] }","service":"user-service","stack":"Error: Invalid value { '$in': [ 'Management' ] }\n    at Object.escape (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sql-string.js:53:11)\n    at MySQLQueryGenerator.escape (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:763:22)\n    at MySQLQueryGenerator._whereParseSingleValueObject (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2057:41)\n    at MySQLQueryGenerator.whereItemQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1815:19)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1734:25\n    at Array.forEach (<anonymous>)\n    at MySQLQueryGenerator.whereItemsQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:1732:35)\n    at MySQLQueryGenerator.getWhereConditions (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:2075:19)\n    at MySQLQueryGenerator.selectQuery (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-generator.js:988:28)\n    at MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:59)"}
+{"level":"error","message":"Error while fetchign Unknown column 'Company.job_tpe' in 'where clause'","name":"SequelizeDatabaseError","original":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`job_tpe` = 'in' LIMIT 0, 10;","sqlMessage":"Unknown column 'Company.job_tpe' in 'where clause'","sqlState":"42S22"},"parameters":{},"parent":{"code":"ER_BAD_FIELD_ERROR","errno":1054,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`job_tpe` = 'in' LIMIT 0, 10;","sqlMessage":"Unknown column 'Company.job_tpe' in 'where clause'","sqlState":"42S22"},"service":"user-service","sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`job_tpe` = 'in' LIMIT 0, 10;","stack":"Error\n    at Query.run (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:12)\n    at async Company.findAll (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1140:21)\n    at async getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:137:22)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while fetchign You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> '[\\\"NodeJS\\\",\\\"ExpressJS\\\"]' LIMIT 0, 10' at line 1","name":"SequelizeDatabaseError","original":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> '[\\\"NodeJS\\\",\\\"ExpressJS\\\"]' LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> '[\\\"NodeJS\\\",\\\"ExpressJS\\\"]' LIMIT 0, 10' at line 1","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> '[\\\"NodeJS\\\",\\\"ExpressJS\\\"]' LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> '[\\\"NodeJS\\\",\\\"ExpressJS\\\"]' LIMIT 0, 10' at line 1","sqlState":"42000"},"service":"user-service","sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> '[\\\"NodeJS\\\",\\\"ExpressJS\\\"]' LIMIT 0, 10;","stack":"Error\n    at Query.run (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:12)\n    at async Company.findAll (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1140:21)\n    at async getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:138:22)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while fetchign You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> ARRAY[NodeJS,ExpressJS] LIMIT 0, 10' at line 1","name":"SequelizeDatabaseError","original":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> ARRAY[NodeJS,ExpressJS] LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> ARRAY[NodeJS,ExpressJS] LIMIT 0, 10' at line 1","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> ARRAY[NodeJS,ExpressJS] LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> ARRAY[NodeJS,ExpressJS] LIMIT 0, 10' at line 1","sqlState":"42000"},"service":"user-service","sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> ARRAY[NodeJS,ExpressJS] LIMIT 0, 10;","stack":"Error\n    at Query.run (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:12)\n    at async Company.findAll (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1140:21)\n    at async getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:140:22)"}
+{"level":"error","message":"Error while fetchign You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> ARRAY[[NodeJS,ExpressJS]] LIMIT 0, 10' at line 1","name":"SequelizeDatabaseError","original":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> ARRAY[[NodeJS,ExpressJS]] LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> ARRAY[[NodeJS,ExpressJS]] LIMIT 0, 10' at line 1","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> ARRAY[[NodeJS,ExpressJS]] LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> ARRAY[[NodeJS,ExpressJS]] LIMIT 0, 10' at line 1","sqlState":"42000"},"service":"user-service","sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> ARRAY[[NodeJS,ExpressJS]] LIMIT 0, 10;","stack":"Error\n    at Query.run (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:12)\n    at async Company.findAll (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1140:21)\n    at async getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:140:22)"}
+{"level":"error","message":"Error while fetchign You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> ARRAY[NodeJS,ExpressJS] LIMIT 0, 10' at line 1","name":"SequelizeDatabaseError","original":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> ARRAY[NodeJS,ExpressJS] LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> ARRAY[NodeJS,ExpressJS] LIMIT 0, 10' at line 1","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> ARRAY[NodeJS,ExpressJS] LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> ARRAY[NodeJS,ExpressJS] LIMIT 0, 10' at line 1","sqlState":"42000"},"service":"user-service","sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> ARRAY[NodeJS,ExpressJS] LIMIT 0, 10;","stack":"Error\n    at Query.run (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:12)\n    at async Company.findAll (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1140:21)\n    at async getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:140:22)"}
+{"level":"error","message":"Error while fetchign You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> ARRAY[NodeJS,ExpressJS] LIMIT 0, 10' at line 1","name":"SequelizeDatabaseError","original":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> ARRAY[NodeJS,ExpressJS] LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> ARRAY[NodeJS,ExpressJS] LIMIT 0, 10' at line 1","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> ARRAY[NodeJS,ExpressJS] LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> ARRAY[NodeJS,ExpressJS] LIMIT 0, 10' at line 1","sqlState":"42000"},"service":"user-service","sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> ARRAY[NodeJS,ExpressJS] LIMIT 0, 10;","stack":"Error\n    at Query.run (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:12)\n    at async Company.findAll (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1140:21)\n    at async getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:140:22)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while fetchign You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> ARRAY[NodeJS] LIMIT 0, 10' at line 1","name":"SequelizeDatabaseError","original":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> ARRAY[NodeJS] LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> ARRAY[NodeJS] LIMIT 0, 10' at line 1","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> ARRAY[NodeJS] LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> ARRAY[NodeJS] LIMIT 0, 10' at line 1","sqlState":"42000"},"service":"user-service","sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> ARRAY[NodeJS] LIMIT 0, 10;","stack":"Error\n    at Query.run (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:12)\n    at async Company.findAll (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1140:21)\n    at async getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:140:22)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while fetchign You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> 'NodeJS', 'ExpressJS', 'CSS', 'Docker'' at line 1","name":"SequelizeDatabaseError","original":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE CAST(`skills` AS JSON) @> 'NodeJS', 'ExpressJS', 'CSS', 'Docker';","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> 'NodeJS', 'ExpressJS', 'CSS', 'Docker'' at line 1","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE CAST(`skills` AS JSON) @> 'NodeJS', 'ExpressJS', 'CSS', 'Docker';","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> 'NodeJS', 'ExpressJS', 'CSS', 'Docker'' at line 1","sqlState":"42000"},"service":"user-service","sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE CAST(`skills` AS JSON) @> 'NodeJS', 'ExpressJS', 'CSS', 'Docker';","stack":"Error\n    at Query.run (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:12)\n    at async Company.findAll (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1140:21)\n    at async getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:141:22)"}
+{"level":"error","message":"Error while fetchign You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> 'NodeJS', 'ExpressJS', 'CSS', 'Docker'' at line 1","name":"SequelizeDatabaseError","original":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE CAST(`skills` AS JSON) @> 'NodeJS', 'ExpressJS', 'CSS', 'Docker';","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> 'NodeJS', 'ExpressJS', 'CSS', 'Docker'' at line 1","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE CAST(`skills` AS JSON) @> 'NodeJS', 'ExpressJS', 'CSS', 'Docker';","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> 'NodeJS', 'ExpressJS', 'CSS', 'Docker'' at line 1","sqlState":"42000"},"service":"user-service","sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE CAST(`skills` AS JSON) @> 'NodeJS', 'ExpressJS', 'CSS', 'Docker';","stack":"Error\n    at Query.run (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:12)\n    at async Company.findAll (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1140:21)\n    at async getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:141:22)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while fetchign You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> ARRAY[1,2,3,5] LIMIT 0, 10' at line 1","name":"SequelizeDatabaseError","original":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> ARRAY[1,2,3,5] LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> ARRAY[1,2,3,5] LIMIT 0, 10' at line 1","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> ARRAY[1,2,3,5] LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> ARRAY[1,2,3,5] LIMIT 0, 10' at line 1","sqlState":"42000"},"service":"user-service","sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> ARRAY[1,2,3,5] LIMIT 0, 10;","stack":"Error\n    at Query.run (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:12)\n    at async Company.findAll (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1140:21)\n    at async getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:141:22)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while fetchign You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> '[1,2,3,5]' LIMIT 0, 10' at line 1","name":"SequelizeDatabaseError","original":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> '[1,2,3,5]' LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> '[1,2,3,5]' LIMIT 0, 10' at line 1","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> '[1,2,3,5]' LIMIT 0, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> '[1,2,3,5]' LIMIT 0, 10' at line 1","sqlState":"42000"},"service":"user-service","sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` @> '[1,2,3,5]' LIMIT 0, 10;","stack":"Error\n    at Query.run (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:12)\n    at async Company.findAll (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1140:21)\n    at async getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:141:22)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while fetchign You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> 1, 2, 3, 5' at line 1","name":"SequelizeDatabaseError","original":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE CAST(`skills` AS JSON) @> 1, 2, 3, 5;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> 1, 2, 3, 5' at line 1","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE CAST(`skills` AS JSON) @> 1, 2, 3, 5;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@> 1, 2, 3, 5' at line 1","sqlState":"42000"},"service":"user-service","sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE CAST(`skills` AS JSON) @> 1, 2, 3, 5;","stack":"Error\n    at Query.run (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:12)\n    at async Company.findAll (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1140:21)\n    at async getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:141:22)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while fetchign You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''[4,7,9,10,11]') LIMIT 10, 10' at line 1","name":"SequelizeDatabaseError","original":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` = ANY ('[4,7,9,10,11]') LIMIT 10, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''[4,7,9,10,11]') LIMIT 10, 10' at line 1","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_PARSE_ERROR","errno":1064,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` = ANY ('[4,7,9,10,11]') LIMIT 10, 10;","sqlMessage":"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''[4,7,9,10,11]') LIMIT 10, 10' at line 1","sqlState":"42000"},"service":"user-service","sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE `Company`.`skills` = ANY ('[4,7,9,10,11]') LIMIT 10, 10;","stack":"Error\n    at Query.run (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:12)\n    at async Company.findAll (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1140:21)\n    at async getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:141:22)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while fetchign sequelize is not defined","service":"user-service","stack":"ReferenceError: sequelize is not defined\n    at getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:142:14)\n    at Layer.handle [as handle_request] (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\express\\lib\\router\\index.js:47:12)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while fetchign Invalid JSON path expression. The error is around character position 57.","name":"SequelizeDatabaseError","original":{"code":"ER_INVALID_JSON_PATH","errno":3143,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE json_unquote(json_extract(`Company`.`skills`,'$.\\\"literal(val) {\\n    return new Utils.Literal(val);\\n  }\\\"')) = 'JSON_CONTAINS(skills, \\'[6,7,8]\\')' LIMIT 10, 10;","sqlMessage":"Invalid JSON path expression. The error is around character position 57.","sqlState":"42000"},"parameters":{},"parent":{"code":"ER_INVALID_JSON_PATH","errno":3143,"sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE json_unquote(json_extract(`Company`.`skills`,'$.\\\"literal(val) {\\n    return new Utils.Literal(val);\\n  }\\\"')) = 'JSON_CONTAINS(skills, \\'[6,7,8]\\')' LIMIT 10, 10;","sqlMessage":"Invalid JSON path expression. The error is around character position 57.","sqlState":"42000"},"service":"user-service","sql":"SELECT `company_id`, `stipend_min`, `stipend_max`, `location`, `name`, `number_of_positions`, `total_applicants`, `duration`, `experience`, `timing`, `expiry_date`, `date_posted`, `skills`, `job_type`, `company_status`, `position`, `company_logo`, `about_us`, `requie`, `respo`, `createdAt`, `updatedAt` FROM `Companies` AS `Company` WHERE json_unquote(json_extract(`Company`.`skills`,'$.\\\"literal(val) {\\n    return new Utils.Literal(val);\\n  }\\\"')) = 'JSON_CONTAINS(skills, \\'[6,7,8]\\')' LIMIT 10, 10;","stack":"Error\n    at Query.run (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:52:25)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\sequelize.js:315:28\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async MySQLQueryInterface.select (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\dialects\\abstract\\query-interface.js:407:12)\n    at async Company.findAll (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1140:21)\n    at async getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:144:22)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while fetchign listings.length is not a function","service":"user-service","stack":"TypeError: listings.length is not a function\n    at getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:162:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while fetchign listings.size is not a function","service":"user-service","stack":"TypeError: listings.size is not a function\n    at getListings (C:\\Users\\singh\\Desktop\\pw\\backend\\controllers\\company.controller.js:162:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
