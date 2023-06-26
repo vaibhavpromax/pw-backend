@@ -8,7 +8,7 @@ const {
 const router = express.Router();
 
 router.post("/create", createListing);
-router.post("/bulk-create", bulkCreateListing);
+router.get("/bulk-create", bulkCreateListing);
 router.post("/fetch", getListings);
 
 module.exports = router;

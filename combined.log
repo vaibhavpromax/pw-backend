@@ -823,3 +823,38 @@
 {"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
 {"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
 {"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"error","message":"Error while creating listing value.split is not a function","service":"user-service","stack":"TypeError: value.split is not a function\n    at Company.set (C:\\Users\\singh\\Desktop\\pw\\backend\\db\\models\\company.js:96:45)\n    at Company.set (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:2256:32)\n    at Company.set (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:2241:18)\n    at Company._initValues (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:156:10)\n    at new Model (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:116:10)\n    at new Company (C:\\Users\\singh\\Desktop\\pw\\backend\\db\\models\\company.js:4:3)\n    at Company.build (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1344:12)\n    at C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1563:52\n    at Array.map (<anonymous>)\n    at Company.bulkCreate (C:\\Users\\singh\\Desktop\\pw\\backend\\node_modules\\sequelize\\lib\\model.js:1563:31)"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}
+{"level":"info","message":"[CONNECTED TO DATABASE]","service":"user-service"}
+{"level":"info","message":"[BACKEND-MICROSERVICE (http) LISTENING ON PORT:8000 ENV:undefined]","service":"user-service"}

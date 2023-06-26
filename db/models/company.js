@@ -92,16 +92,16 @@ module.exports = (sequelize, Sequelize) => {
       requie: {
         allowNull: false,
         type: Sequelize.JSON,
-        set(value) {
-          this.setDataValue("requie", value.split("\n"));
-        },
+        // set(value) {
+        //   this.setDataValue("requie", value.split("\n"));
+        // },
       },
       respo: {
         allowNull: false,
         type: Sequelize.JSON,
-        set(value) {
-          this.setDataValue("respo", value.split("\n"));
-        },
+        // set(value) {
+        //   this.setDataValue("respo", value.split("\n"));
+        // },
       },
       createdAt: {
         allowNull: false,

@@ -7,6 +7,7 @@ const {
   successResponse,
   notFoundResponse,
 } = require("../utils/response");
+const { dummyData } = require("../dummyData");
 
 const Company = db.Company;
 
@@ -63,10 +64,8 @@ const createListing = async (req, res) => {
 };
 
 const bulkCreateListing = async (req, res) => {
-  const { data } = req.body;
   try {
-    const listing = await Company.bulkCreate([data]);
-
+    const listing = await Company.bulkCreate(dummyData);
     return successResponse(res, "Listing added", listing);
   } catch (err) {
     logger.error("Error while creating listing", err);
