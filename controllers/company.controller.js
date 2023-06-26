@@ -178,18 +178,19 @@ const getListings = async (req, res) => {
 
   options.limit = size;
   options.offset = page * size;
-
+  console.log(options);
   try {
-    let listings;
-    if (skill)
+    let listings = {};
+    if (skill) {
+      listings.count = 20;
       // if skill are coming in filter than use this query
-      listings = await Company.findAndCountAll({
+      listings.rows = await Company.findAll({
         ...options,
         having: db.sequelize.literal(
           `JSON_CONTAINS(skills, '${JSON.stringify(skill)}')`
         ),
       });
-    else listings = await Company.findAndCountAll(options);
+    } else listings = await Company.findAndCountAll(options);
     return successResponse(res, "Fetched count successfully", listings);
   } catch (error) {
     logger.error("Error while fetchign", error);
